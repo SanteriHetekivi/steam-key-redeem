@@ -46,3 +46,12 @@ Key: XXXXX-XXXXX-XXXXX
         Games: ['XTHRUST']
         Redeemed!
 ```
+
+## Make
+Make commands.  
+Run with `make <Command>`.  
+
+| Command              | Description                    |
+| -------------------- | ------------------------------ |
+| install_pacman       | Install packages with pacman.  |
+| install_requirements | Install requirements with pip. |

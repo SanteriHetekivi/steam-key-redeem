@@ -27,7 +27,7 @@ steam_client: SteamClient = SteamClient()
 steam_client.cli_login()
 
 # Load .env file.
-load_dotenv()
+load_dotenv(os.path.join(os.path.abspath(os.path.dirname(__file__)), ".env"))
 
 # Init Telegram bot.
 telegram_bot = Bot(os.getenv("TELEGRAM_TOKEN"))
